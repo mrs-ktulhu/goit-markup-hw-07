@@ -380,14 +380,14 @@
                 </div>
                 <div class="footer-submit">
                     <p class="footer-social-text">Підпишіться на розсилку</p>
-                    <div class="footer-submit-form">
+                    <form class="footer-submit-form">
                         <input class="footer-submit-input" type="email" name="submit-mail" id="submit-mail" placeholder="E-mail">
                         <button class="footer-submit-btn blue-button" type="submit">Підписатися 
                             <svg class="telegram">
                                 <use href="./images/svg-img/icons.svg#icon-telegram"></use>
                             </svg>
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -417,7 +417,7 @@
                     <label class="form-label" for="tel">Телефон</label>
                     <input class="form-input" type="tel" name="tel" id="tel" pattern="[0-9]{10}">
                     <svg class="input-icon">
-                        <use href="./images/svg-img/icons.svg#icon-smartphone-modal"></use>
+                        <use href="./images/svg-img/icons.svg#icon-phone-modal"></use>
                     </svg>
                 </div>
                 <div class="form-field">
@@ -433,10 +433,13 @@
                 </div>
                 <div class="form-field-chek">
             
-                    <label class="policy-label" for="policy"></a>
-                        <input class="form-checkbox" type="checkbox" name="policy" id="policy">
+                    <div class="policy-label" for="policy"></a>
+                        <input class="form-checkbox" type="checkbox" name="policy" id="policy" value="agreed">
+                        <svg class="icon-check" width="16" height="15">
+                            <use href="./images/svg-img/icons.svg#icon-check"></use>
+                        </svg>
                         Погоджуюся з розсилкою та приймаю  <a class="policy-link" href="">Умови договору</a>
-                    </label>
+                    </div>
             
                 </div>
                 <button class="form-btn blue-button" type="submit">Відправити</button>
