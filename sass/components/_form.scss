@@ -48,7 +48,7 @@
 .form__input:hover,
 .form__input:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 
 .form__icon {
